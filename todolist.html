@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form & To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Web Development Project</h1>
+    </header>
+
+    <div class="container">
+
+        <!-- Contact Form -->
+        <div class="card">
+            <h2>Contact Form</h2>
+
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Enter Name">
+
+                <input type="email" id="email" placeholder="Enter Email">
+
+                <textarea id="message" placeholder="Enter Message"></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <!-- To-Do List -->
+        <div class="card">
+            <h2>Dynamic To-Do List</h2>
+
+            <div class="todo-box">
+                <input type="text" id="taskInput" placeholder="Enter Task">
+                <button onclick="addTask()">Add Task</button>
+                </div>
+
+            <ul id="taskList"></ul>
+        <h3>Total Tasks: <span id="totalCounter">0</span></h3>
+        <h3>Completed Tasks: <span id="completedCounter">0</span></h3>
+        <h3>Incomplete Tasks: <span id="incompleteCounter">0</span></h3>
+</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#cdc3c3;
+}
+
+header{
+    background:#0d6efd;
+    color:rgb(500, 500, 500);
+    text-align:center;
+    padding:40px;
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    flex-wrap:wrap;
+    margin-top:40px;
+}
+
+.card{
+    width:400px;
+    background:rgb(143, 91, 91);
+    padding:50px;
+    border-radius:50px;
+    box-shadow:0 0 10px rgba(103, 37, 37, 0.2);
+}
+
+.card h2{
+    margin-bottom:20px;
+}
+
+input,
+textarea{
+    width:100%;
+    padding:10px;
+    margin-bottom:10px;
+    border:1px solid #ccc;
+    border-radius:15px;
+}
+
+textarea{
+    height:100px;
+    resize:none;
+}
+
+button{
+    background:#0d6efd;
+    color:white;
+    border:none;
+    padding:10px 15px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#084298;
+}
+
+.todo-box{
+    display:flex;
+    gap:10px;
+}
+
+.todo-box input{
+    flex:1;
+}
+
+ul{
+    list-style:none;
+    margin-top:15px;
+}
+
+li{
+    background:#e9ecef;
+    padding:20px;
+    margin-bottom:20px;
+    border-radius:10px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.delete-btn{
+    background:red;
+}
